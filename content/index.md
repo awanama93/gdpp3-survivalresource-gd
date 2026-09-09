@@ -1,12 +1,8 @@
-This is your new _vault_.
+Ini adalah halaman index untuk design document dari project:
+Survival Resource Management
 
-Make a note of something, [[create a link]], or try [the Importer](https://help.obsidian.md/Plugins/Importer)!
+Pada dokumen ini terdapat sejumlah informasi tentang:
 
-When you're ready, delete this note and make the vault your own.
-
-survival
-sudah setup quartz
-
-cobalah mengerti kalau ini adalah file baru
-
-mari kita coba ubah bagian ini
+[[GameDesignDocument|Game Design Document]]
+[[ArtDesignDocument|Art Design Document]]
+[[TechincalDesignDocument|Technical Design Document]]
