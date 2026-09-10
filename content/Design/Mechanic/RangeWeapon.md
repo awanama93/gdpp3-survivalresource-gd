@@ -1,1 +1,1 @@
-Range weapon
+Range weapon adalah weapon yang

@@ -1,0 +1,6 @@
+Prop adalah object yang tidak "hidup"
+
+Terdapat 2 tipe prop utama dalam game ini, yaitu:
+![[DecorativeProp|Decorative prop]]
+
+![[InteractiveProp|Interactive prop]]

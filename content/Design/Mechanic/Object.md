@@ -15,6 +15,4 @@ Terdapat beberapa jenis character dalam game ini:
 
 ![[CharacterState]]
 
-### Interactive Prop
-
-### Decorative Prop
+![[Prop|Prop]]

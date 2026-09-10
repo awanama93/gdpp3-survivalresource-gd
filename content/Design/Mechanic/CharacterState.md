@@ -13,4 +13,5 @@ Semua jenis character bisa memiliki state berikut walaupun mungkin terdapat bebe
 Terdapat sejumlah state yang dimiliki beberapa character saja. Berikut adalah state tersebut:
 
 - ![[CivilianState|Civilian state]]
+- ![[PlayerCharacterState|Player character state]]
 -

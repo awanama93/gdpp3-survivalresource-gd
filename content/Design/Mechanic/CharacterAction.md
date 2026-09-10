@@ -36,10 +36,14 @@ Character bisa menyerang character lain
 
 - Character menyerang secara otomatis ketika ada opponent dalam jangkauan radius senjatanya
 - Jika character sedang dalam keadaan menyerang, character bisa berhenti menyerang jika terjadi decision untuk menggerakkan character (berjalan). Jadi, character hanya akan menyerang jika dia sedang tidak berjalan dan ada opponent dalam radiusnya.
-- Dalam game ini hanya ada 2 tipe weapon, yaitu:
-  - ![[MeleeWeapon|Melee (Baseball bat)]]
-  - ![[RangeWeapon|Range (Pistol)]]
-  -
+
+### Memasang Equipment
+
+Character bisa memasang equipment yang bisa digunakan untuk melakukan action
+Terdapat perbedaan antara player character dengan non-player character dalam memasang equipment
+
+![[Weapon]]
+
 - Tiap character memiliki perbedaan dalam tipe weapon yang dimiliki. Detail tentang ini dijelaskan pada bagian masing-masing character.
   - Player character
   - Ally character

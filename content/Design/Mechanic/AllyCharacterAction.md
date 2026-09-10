@@ -20,10 +20,25 @@ Ally character bisa melakukan sejumlah action yang tidak bisa dilakukan characte
 - Ally character bisa memberi makan civilian yang lapar
 - Terdapat perbedaan dalam proses memberi makan civilian antara player character dan civilian
 
+### Makan
+
+- Ally character bisa melakukan makan
+- Terdapat perbedaan dalam proses makan antara civilian dan player character
+
 ### Membangun defense prop
 
 - Ally character bisa membangun defense prop
 - Terdapat perbedaan dalam proses membangun defense prop antara player character dan civilian
+
+### Membangun facility prop
+
+- Ally character bisa membangun facility prop
+- Terdapat perbedaan dalam proses membangun facility prop antara player character dan civilian
+
+### Memperbaiki defense prop dan facility prop
+
+- Ally character bisa memperbaiki defense prop dan facility prop
+- Terdapat perbedaan dalam proses memperbaiki antara player character dan civilian
 
 ### Menyerang enemy character
 
