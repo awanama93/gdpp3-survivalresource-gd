@@ -16,10 +16,16 @@ Suatu interactive prop bisa menghasilkan satu atau lebih dari satu resource (pro
 
 Suatu interactive prop bisa di-spawn pada game space
 Spawnable interactive prop di-spawn pada tempat tertentu
+Lokasi spawn suatu spawnable interactive prop adalah sesuatu yang preset
+
+##### Presettable
+
+Lokasi suatu interactive prop bisa preset (presettable) sebelum game dimulai
 
 ##### Buildable
 
-Suatu interactive prop bisa dibangun oleh ally character (buildable)
+Suatu interactive prop bisa dibangun oleh HANYA [[Character#Player character|player character]] (buildable)
+Lokasi buildable interactive prop ditentukan preset
 
 ##### Repairable
 
@@ -32,11 +38,13 @@ Untuk membuka suatu openable interactive prop, player character harus memiliki k
 
 ##### Aggroable
 
-Suatu interactive prop bisa melakukan action [[CharacterAction#Menyerang|menyerang]] ally character
+Suatu interactive prop bisa melakukan action [[CharacterAction#Menyerang|menyerang]] [[Character#Enemy character|enemy character]]
 
 ##### Upgradive
 
-Suatu interactive prop bisa meng-upgrade interactive prop (diri sendiri atau prop lain) atau equipment
+Suatu interactive prop bisa meng-upgrade interactive prop lain atau equipment
+
+![[Upgradable]]
 
 ##### Containable
 
@@ -45,6 +53,10 @@ Suatu interactive prop bisa menyimpan resource (containable)
 ##### Actioncapable
 
 Suatu interactive prop bisa menjadi tempat character melakukan suatu action
+
+- ###### Timer
+  - Ketika suatu action dilakukan pada interactive prop, maka akan dimulai waktu pengerjaan action tersebut
+  -
 
 ##### Routeable
 

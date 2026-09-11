@@ -12,7 +12,10 @@ Player character bisa melakukan sejumlah action yang tidak bisa dilakukan charac
 ### Mengupgrade equipment
 
 - Player character bisa mengupgrade equipment
--
+
+### Mengupgrade interactive prop
+
+- Player character bisa mengupgrade interactive prop
 
 ### Civilian task assignment
 

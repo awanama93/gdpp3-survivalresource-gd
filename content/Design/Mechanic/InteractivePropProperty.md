@@ -3,3 +3,11 @@ Interactive Prop Property bisa memiliki satu atau lebih property yang dijelaskan
 ![[Break point]]
 
 ![[Resource pool]]
+
+![[Capacity]]
+
+![[Occupancy]]
+
+![[Action power]]
+
+![[Upgrade materials]]

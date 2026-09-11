@@ -15,14 +15,18 @@ Ally character bisa melakukan sejumlah action yang tidak bisa dilakukan characte
 - Ally character bisa mengolah resource menggunakan interactive prop
 - Terdapat perbedaan dalam proses mengolah resource antara player character dan civilian
 
+### Menyimpan medicine
+
+- Ally character bisa menyimpan medicine yang sudah dibuat
+
 ### Mengobati civilian
 
 - Ally character bisa mengobati civilian yang sakit
 - Terdapat perbedaan dalam proses mengobati civilian sakit antara player character dan civilian
 
-### Memberi makan civilian
+### Memberi makan ally character
 
-- Ally character bisa memberi makan civilian yang lapar
+- Ally character bisa memberi makan ally character yang lapar
 - Terdapat perbedaan dalam proses memberi makan civilian antara player character dan civilian
 
 ### Makan

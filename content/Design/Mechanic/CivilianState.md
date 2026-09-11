@@ -15,3 +15,7 @@ Civilian bisa memiliki state yang tidak dimiliki character lain:
 - Lapar terjadi ketika [[HealthPoint|health point]] civilian...
 - Civilian yang lapar bisa memutuskan untuk [[CharacterAction#Berjalan|berjalan]] menuju kitchen
 - Civilian yang lapar bisa saja diberikan task
+
+### Menunggu
+
+- Civilian bisa menunggu ketika tidak diberikan pekerjaan atau tidak ada pekerjaan yang bisa dilakukan

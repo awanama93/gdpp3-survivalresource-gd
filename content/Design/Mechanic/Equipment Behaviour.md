@@ -11,7 +11,4 @@ Terdapat perbedaan cara memasang equip antara player character dan non-playable 
 
 Suatu equipment bisa digunakan (usable) oleh character untuk melakukan suatu action
 
-##### Upgradable
-
-Suatu equipment bisa di-upgrade (upgradable) oleh character
-Terdapat perbedaan cara upgrade equip antara player character dan non-playable character
+![[Upgradable]]
