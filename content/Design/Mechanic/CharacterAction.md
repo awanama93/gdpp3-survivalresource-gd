@@ -36,22 +36,26 @@ Character bisa menyerang character lain
 
 - Character menyerang secara otomatis ketika ada opponent dalam jangkauan radius senjatanya
 - Jika character sedang dalam keadaan menyerang, character bisa berhenti menyerang jika terjadi decision untuk menggerakkan character (berjalan). Jadi, character hanya akan menyerang jika dia sedang tidak berjalan dan ada opponent dalam radiusnya.
+- Character memiliki sejumlah perbedaan dalam hal target serangan
+  - Ally character hanya bisa menyerang enemy character
+  - Tetapi, zombie robot, selain bisa menyerang ally character, bisa juga menyerang robber. Ini dijelaskan pada [[ZombieRobotAction#Menyerang robber|bagian ini]]
+  - Sebaliknya, robber, selain bisa menyerang ally character, bisa juga menyerang zombie robot. Ini dijelaskan pada [[RobberAction#Menyerang zombie robot|bagian ini]]
 
 ### Memasang Equipment
 
 Character bisa memasang equipment yang bisa digunakan untuk melakukan action
-Terdapat perbedaan antara player character dengan non-player character dalam memasang equipment
 
-![[Weapon]]
+- Terdapat perbedaan antara player character dengan non-playable character dalam memasang equipment
+  - Non-playable character
+    - Pada non-playable character equipment dipasang secara pre-set berdasarkan [[NPCEquipmentSetup|NPC equipment setup]]
+  - Player character
+    - Player character memasang equipment secara otomatis ketika [[PlayerCharacterAction#Mengupgrade equipment|mengupgrade equipment]]
+    - Pada awal permainan player sudah memasang [[Axe]] level 1
 
 - Tiap character memiliki perbedaan dalam tipe weapon yang dimiliki. Detail tentang ini dijelaskan pada bagian masing-masing character.
   - Player character
   - Ally character
   - Enemy character
-- Character memiliki sejumlah perbedaan dalam hal target serangan
-  - Ally character hanya bisa menyerang enemy character
-  - Tetapi, zombie robot, selain bisa menyerang ally character, bisa juga menyerang robber. Ini dijelaskan pada [[ZombieRobotAction#Menyerang robber|bagian ini]]
-  - Sebaliknya, robber, selain bisa menyerang ally character, bisa juga menyerang zombie robot. Ini dijelaskan pada [[RobberAction#Menyerang zombie robot|bagian ini]]
 
 ### Action Khusus
 

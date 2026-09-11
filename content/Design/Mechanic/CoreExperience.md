@@ -4,20 +4,24 @@ Player adalah seorang penyintas dari technological apocalypse yang membantu base
 
 ### Gameplay
 
+##### Goal
+
+![[CoreExperience#^tower-goal]]
+
 ##### Survival
 
 Aspek survival dari game ini terletak pada aktivitas berikut:
 
 - Bertahan hidup dan mengalahkan wave dari zombie robot
-- Membangun radio tower untuk memanggil tim penyelamat
+- Membangun radio tower untuk memanggil tim penyelamat ^tower-goal
 - Menavigasi kawasan di luar base camp yang gelap sambil menyalakan listrik di game space
 
 ##### ResourceManagement
 
 Aspek resource management dari game ini terletak pada aktivitas berikut:
 
-- Melakukan eksplorasi untuk mencari resource generator object
-- Mengumpulkan resource dari resource generator object
+- Melakukan eksplorasi untuk mencari [[TipeInteractiveProp#Resource Prop|resource prop]]
+- Mengumpulkan resource dari [[TipeInteractiveProp#Resource Prop|resource prop]]
 - Membuat object untuk keperluan resource management atau survival dari resource
 - Mengelola kesehatan para civilian
 - Mengatur peran civilian dalam proses survival maupun resource management

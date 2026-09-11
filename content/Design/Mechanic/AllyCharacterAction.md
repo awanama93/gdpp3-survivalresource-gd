@@ -10,6 +10,11 @@ Ally character bisa melakukan sejumlah action yang tidak bisa dilakukan characte
 - Ally character bisa mengumpulkan resource setelah resource prop hancur
 - Terdapat perbedaan dalam proses mengumpulkan resource antara player character dan civilian
 
+### Mengolah resource
+
+- Ally character bisa mengolah resource menggunakan interactive prop
+- Terdapat perbedaan dalam proses mengolah resource antara player character dan civilian
+
 ### Mengobati civilian
 
 - Ally character bisa mengobati civilian yang sakit

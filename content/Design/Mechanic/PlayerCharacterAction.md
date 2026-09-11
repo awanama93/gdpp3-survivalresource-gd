@@ -9,6 +9,11 @@ Player character bisa melakukan sejumlah action yang tidak bisa dilakukan charac
 
 - Player character bisa membangun radio tower
 
+### Mengupgrade equipment
+
+- Player character bisa mengupgrade equipment
+-
+
 ### Civilian task assignment
 
 - Player character bisa melakukan civilian task assignment

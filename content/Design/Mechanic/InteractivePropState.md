@@ -26,4 +26,4 @@ Ally character yang menempati interactive prop tersebut menjadi target dari acti
 
 ##### Operating
 
-Sejumlah interactive prop bisa melakukan suatu action yang membutuhkan waktu
+Sejumlah interactive prop bisa melakukan suatu action yang membutuhkan waktu. Ketika waktu sedang dihitung saat action sedang dilakukan oleh interactive prop tersebut, maka interactive prop sedang ada dalam state operating

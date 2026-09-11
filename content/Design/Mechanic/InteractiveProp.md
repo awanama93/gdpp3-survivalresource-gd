@@ -5,25 +5,4 @@ Sepanjang permainan, keadaan interactive prop akan berubah sesuai dengan interak
 
 ![[InteractivePropState]]
 
-### Tipe Interactive Prop
-
-##### Resource Prop
-
-Refrigerator
-
-##### Facility prop
-
-Medic
-Kitchen
-Civilian task board
-Tool rack
-Weaponry
-
-###### Defense prop
-
-Turret
-Fence
-
-##### Gating prop
-
-Locked door?
+![[TipeInteractiveProp]]

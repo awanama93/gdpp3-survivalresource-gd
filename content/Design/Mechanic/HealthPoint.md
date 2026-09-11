@@ -1,4 +1,4 @@
-Health point adalah poin yang menentukan hidup dan mati character
+Health point adalah property yang menentukan hidup dan mati character
 
 ### Pengurangan Health Point
 
