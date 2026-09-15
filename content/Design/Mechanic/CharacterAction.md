@@ -1,8 +1,8 @@
 Semua jenis character bisa melakukan hal berikut walaupun mungkin terdapat beberapa detil yang berbeda:
 
-### Idle
+### Standing
 
-Character bisa idle (diam bergeming)
+Character bisa standing (berdiri diam bergeming)
 
 - Player bisa melihat animasi character idle
 
@@ -16,6 +16,14 @@ Character bisa berjalan
 - Player bisa mendengar SFX langkah kaki ketika character berjalan
 - Tiap character memiliki perbedaan kecepatan berjalan
 - Detil perbedaan behaviour dalam berjalan, dijelaskan pada tiap bagian character
+
+#### Arah tuju berjalan
+
+- Character berjalan menuju arah tertentu
+- [[Character#Player character|Player character]] berjalan menuju arah yang ditentukan player
+- [[Character#Civilian|Civilian]] berjalan menuju arah sesuai dengan role, state, dan actionnya
+- [[Character#Zombie robot|Zombie robot]] secara default berjalan menuju arah posisi [[TipeInteractiveProp#Tower radio|tower radio]] tetapi bisa berubah menjadi menuju target serangan (baik character lain maupun [[TipeInteractiveProp#Defense prop|defense prop]]) bergantung pada [[ZombieRobotDecision|decision]]-nya
+- [[Character#Robber|Robber]] secara default berjalan untuk [[RobberAction#Berpatroli|berpatroli]] tapi bisa berubah menuju target serangan (baik character lain maupun [[TipeInteractiveProp#Defense prop|defense prop]]) atau [[Resource#Processed Resource|processed resource]] yang [[InteractivePropBehaviour#Containable|disimpan]] di [[TipeInteractiveProp#Facility prop|facility prop]] dan [[TipeInteractiveProp#Tech prop|tech prop]] bergantung pada [[RobberDecision|decision]]-nya
 
 ### Terluka
 
@@ -41,21 +49,37 @@ Character bisa menyerang character lain
   - Tetapi, zombie robot, selain bisa menyerang ally character, bisa juga menyerang robber. Ini dijelaskan pada [[ZombieRobotAction#Menyerang robber|bagian ini]]
   - Sebaliknya, robber, selain bisa menyerang ally character, bisa juga menyerang zombie robot. Ini dijelaskan pada [[RobberAction#Menyerang zombie robot|bagian ini]]
 
+#### Tahapan menyerang
+
+Agar character bisa melakukan action menyerang, maka berikut tahapan yang perlu dilakukan:
+
+- Character memasang equipment
+- Character sedang dalam state idle
+- Character melakukan deteksi object dalam radius equipmentnya
+- Jika terdapat character lain dalam radius equipmentnya
+  - atau prop dalam radius equipmentnya
+  - maka character masuk dalam state aggressive
+- Mulai hitung mundur equipment
+
 ### Memasang Equipment
 
 Character bisa memasang equipment yang bisa digunakan untuk melakukan action
 
-- Terdapat perbedaan antara player character dengan non-playable character dalam memasang equipment
-  - Non-playable character
-    - Pada non-playable character equipment dipasang secara pre-set berdasarkan [[NPCEquipmentSetup|NPC equipment setup]]
+- Terdapat perbedaan antara player character dengan nonplayable character dalam memasang equipment
+  - Nonplayable character
+    - Pada nonplayable character equipment dipasang secara preset berdasarkan [[NPCEquipmentSetup|NPC equipment setup]]
   - Player character
     - Player character memasang equipment secara otomatis ketika [[PlayerCharacterAction#Mengupgrade equipment|mengupgrade equipment]]
     - Pada awal permainan player sudah memasang [[Axe]] level 1
 
 - Tiap character memiliki perbedaan dalam tipe weapon yang dimiliki. Detail tentang ini dijelaskan pada bagian masing-masing character.
   - Player character
+    - Player character bisa memasang [[Axe]] maupun [[Pistol]]
   - Ally character
+    - Civilian hanya bisa memasang [[Axe]]
   - Enemy character
+    - Robber hanya bisa memasang [[Pistol]]
+    - ZombieRobot hanya bisa memasang [[Claw]]
 
 ### Action Khusus
 

@@ -27,3 +27,13 @@ Ally character yang menempati interactive prop tersebut menjadi target dari acti
 ##### Operating
 
 Sejumlah interactive prop bisa melakukan suatu action yang membutuhkan waktu. Ketika waktu sedang dihitung saat action sedang dilakukan oleh interactive prop tersebut, maka interactive prop sedang ada dalam state operating
+
+##### Closed
+
+Sejumlah interactive prop bisa berada dalam keadaan ditutup (closed)
+Ketika suatu interactive prop berada dalam keadaan closed, dia akan menghalangi jalur [[Character]] untuk berjalan
+
+##### Opened
+
+Sejumlah interactive prop bisa berada dalam keadaan dibuka (opened)
+Ketika suatu interactive prop berada dalam keadaan opened, dia akan membuka jalur [[Character]] untuk berjalan

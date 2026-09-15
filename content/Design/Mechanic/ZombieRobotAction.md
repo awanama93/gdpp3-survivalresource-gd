@@ -2,8 +2,9 @@ Zombie robot bisa melakukan sejumlah action yang tidak bisa dilakukan character 
 
 ### Menyerang robber
 
-- Walaupun sama-sama enemy character, zombie robot bisa menyerang robber
+- Walaupun sama-sama enemy character, zombie robot bisa menyerang [[Character#Robber|robber]]
 - Proses pengambilan keputusan untuk menyerang robber, dijelaskan pada bagian [[EnemyCharacterDecision|enemy character decision]]
--
 
-### Berjalan Menuju Target
+### Menyerang tower radio
+
+- Selain menyerang character lain dan [[TipeInteractiveProp#Defense prop|defense prop]], zombie robot bisa menyerang [[TipeInteractiveProp#Tower radio|tower radio]]

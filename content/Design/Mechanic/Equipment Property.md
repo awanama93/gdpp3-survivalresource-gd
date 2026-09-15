@@ -9,4 +9,8 @@ Penambahan level akan turut  menambah action power dari equipment tersebut
 
 ![[Action power]]
 
+![[ActionCooldown]]
+
+![[ActionRadius]]
+
 ![[Upgrade materials]]
