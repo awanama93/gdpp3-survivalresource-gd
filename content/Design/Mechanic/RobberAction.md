@@ -1,14 +1,16 @@
 Robber bisa melakukan sejumlah action yang tidak bisa dilakukan character lain, yaitu:
 
-### Berpatroli
-
-- Robber bisa berpatroli
-- Berpatroli adalah [[CharacterAction#Berjalan|berjalan]] dengan tujuan random pada radius tertentu
+![[Berpatroli]]
 
 ### Menyerang zombie robot
 
 - Walaupun sama-sama enemy character, robber bisa menyerang [[Character#Zombie robot|zombie robot]]
 - Proses pengambilan keputusan untuk menyerang zombie robot, dijelaskan pada bagian [[EnemyCharacterDecision|enemy character decision]]
+
+### Menghancurkan facility prop
+
+- Robber bisa menghancurkan [[TipeInteractiveProp#Facility prop|Facility prop]]
+- Proses pengambilan keputusan untuk menghancurkan facility prop, dijelaskan pada bagian [[EnemyCharacterDecision|enemy character decision]]
 
 ### Mencuri processed resource
 

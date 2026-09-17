@@ -13,6 +13,11 @@ Ketika [[Character#Ally character|ally character]] menempati suatu interactive p
 Jika [[Occupancy]] interactive prop tersebut mencapai nilai maksimal (biasanya 1), maka statenya berubah menjadi [[InteractivePropState#Occupied|occupied]]
 Jika interactive prop sedang ada dalam state [[InteractivePropState#Occupied|occupied]], maka [[Character#Ally character|ally character]] lain tidak bisa menempati lagi interactive prop tersebut
 Jika interactive prop sedang ada dalam state [[InteractivePropState#Occupied|occupied]], lalu [[Character#Ally character|ally character]] melakukan [[InteractivePropBehaviour#Actioncapable|action]] yang relevan dengan interactive prop tersebut, maka statenya berubah menjadi [[InteractivePropState#Operating|operating]]
+Ketika suatu occupiable interactive prop sudah occupied dan syarat action-nya sudah terpenuhi, maka action tersebut dimulai
+Action yang berkaitan dengan occupiable interactive prop adalah:
+
+- [[AllyCharacterAction#Makan|makan]]
+- [[CivilianAction#Menempati stretcher|menempati stretcher]]
 
 ##### Productive
 
@@ -108,8 +113,7 @@ Ketika suatu action dilakukan pada interactive prop, maka akan dimulai waktu pen
 Yang dimaksud dengan action pada suatu actioncapable interactive prop adalah action yang dilakukan [[Character#Ally character|ally character]] melalui interaksi dengan interactive prop, yang meliputi:
 
 - [[PlayerCharacterAction#Civilian task assignment|civilian task assignment]]
-- [[AllyCharacterAction#Memberi makan ally character|memberi makan ally character yang lapar]]
-- [[AllyCharacterAction#Makan|makan]]
+- [[AllyCharacterAction#Menyimpan food|menyimpan food]]
 - [[AllyCharacterAction#Menyimpan medicine|menyimpan medicine]]
 - [[AllyCharacterAction#Mengobati civilian|mengobati civilian]]
 - [[AllyCharacterAction#Mengolah resource|mengolah resource]]

@@ -23,7 +23,7 @@ Character bisa berjalan
 - [[Character#Player character|Player character]] berjalan menuju arah yang ditentukan player
 - [[Character#Civilian|Civilian]] berjalan menuju arah sesuai dengan role, state, dan actionnya
 - [[Character#Zombie robot|Zombie robot]] secara default berjalan menuju arah posisi [[TipeInteractiveProp#Tower radio|tower radio]] tetapi bisa berubah menjadi menuju target serangan (baik character lain maupun [[TipeInteractiveProp#Defense prop|defense prop]]) bergantung pada [[ZombieRobotDecision|decision]]-nya
-- [[Character#Robber|Robber]] secara default berjalan untuk [[RobberAction#Berpatroli|berpatroli]] tapi bisa berubah menuju target serangan (baik character lain maupun [[TipeInteractiveProp#Defense prop|defense prop]]) atau [[Resource#Processed Resource|processed resource]] yang [[InteractivePropBehaviour#Containable|disimpan]] di [[TipeInteractiveProp#Facility prop|facility prop]] dan [[TipeInteractiveProp#Tech prop|tech prop]] bergantung pada [[RobberDecision|decision]]-nya
+- [[Character#Robber|Robber]] secara default berjalan untuk [[Berpatroli#Berpatroli|berpatroli]] tapi bisa berubah menuju target serangan (baik character lain maupun [[TipeInteractiveProp#Defense prop|defense prop]]) atau [[Resource#Processed Resource|processed resource]] yang [[InteractivePropBehaviour#Containable|disimpan]] di [[TipeInteractiveProp#Facility prop|facility prop]] dan [[TipeInteractiveProp#Tech prop|tech prop]] bergantung pada [[RobberDecision|decision]]-nya
 
 ### Terluka
 

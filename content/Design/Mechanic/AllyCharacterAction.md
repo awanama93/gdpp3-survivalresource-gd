@@ -1,5 +1,7 @@
 [[Character#Ally character|Ally character]] bisa melakukan sejumlah action yang tidak bisa dilakukan character lain, yaitu:
 
+## Mengelola resource
+
 ### Menghancurkan resource prop
 
 - Ally character bisa menghancurkan [[TipeInteractiveProp#Resource Prop|resource prop]]
@@ -46,6 +48,24 @@
 - Ally character menyimpan medicine dengan menyentuh stretcher ketika membawa medicine
 - Action menyimpan medicine tidak terjadi secara instan melainkan selama object fisik medicine tersebut dipindahkan dari character ke samping stretcher tersebut
 
+### Menyimpan food
+
+- Ally character bisa menyimpan [[Resource#Food|food]] di [[TipeInteractiveProp#Dinning station|dinning station]]
+- Food yang disimpan di dinning station akan digunakan untuk character makan
+- Action menyimpan food tidak terjadi secara instan melainkan selama object fisik food tersebut dipindahkan dari character ke samping dinning station tersebut
+- Terdapat perbedaan dalam proses menyimpan food antara player character dan civilian
+
+### Memperbaiki defense prop dan facility prop
+
+- Ally character bisa memperbaiki [[TipeInteractiveProp#Defense prop|defense prop]] maupun [[TipeInteractiveProp#Facility prop|facility prop]]
+- Memperbaiki prop tersebut dilakukan dengan cara ally character menyentuh trigger perbaikan dari prop tersebut
+- Agar ally character bisa melakukan action memperbaiki tersebut, berikut syarat yang harus dipenuhi:
+  - Ally character harus memiliki resource sesuai dengan [[RepairMaterials|repair materials]] yang dibutuhkan prop tersebut
+- Action memperbaiki prop tidak terjadi secara instan melainkan membutuhkan [[InteractivePropBehaviour#Timer|waktu]] untuk dilakukan
+- Terdapat perbedaan dalam proses memperbaiki antara player character dan civilian
+
+## Survival
+
 ### Mengobati civilian
 
 - Ally character bisa mengobati [[Character#Civilian|civilian]] yang [[CivilianState#Sakit|sakit]]
@@ -57,13 +77,6 @@
 - Action mengobati civilian tidak terjadi secara instan melainkan membutuhkan [[InteractivePropBehaviour#Timer|waktu]] untuk dilakukan
 - Terdapat perbedaan dalam proses mengobati civilian sakit antara player character dan civilian
 
-### Menyimpan food
-
-- Ally character bisa menyimpan [[Resource#Food|food]] di [[TipeInteractiveProp#Dinning station|dinning station]]
-- Food yang disimpan di dinning station akan digunakan untuk character makan
-- Action menyimpan food tidak terjadi secara instan melainkan selama object fisik food tersebut dipindahkan dari character ke samping dinning station tersebut
-- Terdapat perbedaan dalam proses menyimpan food antara player character dan civilian
-
 ### Makan
 
 - Ally character bisa melakukan action makan
@@ -74,24 +87,6 @@
   - Jika [[Character#Player character|player character]], maka bisa langsung melakukan action makan ketika berinteraksi dengan dinning station ketika [[HealthPoint|health point]] < 100% total health point
 - Action makan tidak terjadi secara instan melainkan membutuhkan [[InteractivePropBehaviour#Timer|waktu]] untuk dilakukan
 - Terdapat perbedaan dalam proses makan antara civilian dan player character
-
-### Membangun defense prop
-
-- Ally character bisa membangun [[TipeInteractiveProp#Defense prop|defense prop]]
-- Membangun defense prop dilakukan dengan cara ally character menyentuh trigger pembangunan defense prop
-- Agar ally character bisa melakukan action membangun defense prop, berikut syarat yang harus dipenuhi:
-  - Ally character harus memiliki resource sesuai dengan [[Upgrade materials#Build materials|build material]] dari defense prop tersebut
-- Action membangun defense prop tidak terjadi secara instan melainkan membutuhkan [[InteractivePropBehaviour#Timer|waktu]] untuk dilakukan
-- Terdapat perbedaan dalam proses membangun defense prop antara player character dan civilian
-
-### Memperbaiki defense prop dan facility prop
-
-- Ally character bisa memperbaiki [[TipeInteractiveProp#Defense prop|defense prop]] maupun [[TipeInteractiveProp#Facility prop|facility prop]]
-- Memperbaiki prop tersebut dilakukan dengan cara ally character menyentuh trigger perbaikan dari prop tersebut
-- Agar ally character bisa melakukan action memperbaiki tersebut, berikut syarat yang harus dipenuhi:
-  - Ally character harus memiliki resource sesuai dengan [[RepairMaterials|repair materials]] yang dibutuhkan prop tersebut
-- Action memperbaiki prop tidak terjadi secara instan melainkan membutuhkan [[InteractivePropBehaviour#Timer|waktu]] untuk dilakukan
-- Terdapat perbedaan dalam proses memperbaiki antara player character dan civilian
 
 ### Menyerang enemy character
 

@@ -6,25 +6,29 @@ Player adalah seorang penyintas dari technological apocalypse yang membantu base
 
 ##### Goal
 
--
+- Player akan memenangkan game ini jika berhasil [[PlayerCharacterAction#Mengupgrade interactive prop|mengupgrade]] [[TipeInteractiveProp#Tower radio|Tower radio]] sampai [[InteractivePropProperty#Prop Level|level]] 10
+
+##### Lose
+
+- Player tidak bisa kalah dalam game ini, tetapi [[Character#Player character|Player character]] bisa mengalami keadaan [[PlayerCharacterState#Gelap|Gelap]] maupun [[PlayerCharacterState#Pingsan|Pingsan]] yang bisa me-reset lokasi player character ke lokasi tertentu dan mengurangi resource
 
 ##### Survival
 
 Aspek survival dari game ini terletak pada aktivitas berikut:
 
-- Bertahan hidup dan mengalahkan wave dari zombie robot
-- Membangun radio tower untuk memanggil tim penyelamat
-- Menavigasi kawasan di luar base camp yang gelap sambil menyalakan listrik di game space
+- Bertahan hidup dan [[CharacterAction#Menyerang|mengalahkan]] wave dari [[Character#Zombie robot|Zombie robot]] maupun ancaman [[Character#Robber|Robber]]
+- [[CoreExperience#Goal|Membangun tower radio]] untuk memanggil tim penyelamat
+- Mengeksplorasi kawasan di luar [[BaseCamp|base camp]] yang gelap sambil menyalakan [[TipeInteractiveProp#Generator|Generator]] di game space
 
 ##### ResourceManagement
 
 Aspek resource management dari game ini terletak pada aktivitas berikut:
 
-- Melakukan eksplorasi untuk mencari [[TipeInteractiveProp#Resource Prop|resource prop]]
-- Mengumpulkan resource dari [[TipeInteractiveProp#Resource Prop|resource prop]]
-- Membuat object untuk keperluan resource management atau survival dari resource
-- Mengelola kesehatan para civilian
-- Mengatur peran civilian dalam proses survival maupun resource management
+- Melakukan [[PlayerCharacterAction#Mengeksplorasi|eksplorasi]] untuk mencari [[TipeInteractiveProp#Resource Prop|resource prop]]
+- [[AllyCharacterAction#Mengumpulkan resource|Mengumpulkan resource]] dari [[TipeInteractiveProp#Resource Prop|resource prop]]
+- [[AllyCharacterAction#Mengelola resource|Mengelola resource]], [[PlayerCharacterAction#Membangun dan mengupgrade|Membangun dan mengupgrade object]] untuk keperluan resource management atau [[AllyCharacterAction#Survival|Survival]]
+- Mengelola rasa [[CivilianState#Lapar|Lapar]] dan [[CivilianState#Sakit|kesehatan]] para [[Character#Civilian|Civilian]]
+- [[PlayerCharacterAction#Mengelola civilian|Mengatur peran civilian]] dalam proses survival maupun resource management
 
 ### Referensi
 
