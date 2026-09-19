@@ -2,6 +2,10 @@
 
 Player adalah seorang penyintas dari technological apocalypse yang membantu basecamp penyintas saat menunggu bantuan datang​
 
+### Narrative
+
+Informasi narrative dari game ini, [[Narrative|bisa diakses di sini]]
+
 ### Gameplay
 
 ##### Goal

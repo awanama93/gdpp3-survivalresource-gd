@@ -4,7 +4,6 @@ Player character memiliki state yang tidak dimiliki character lain:
 
 - Character terang jika [[LightPoint|light point]] > 0
 - Jika [[LightPoint|light point]] > 0, maka light point akan berkurang seiring waktu
-- Kecepatan pengurangan light point adalah 5% dari total light point per detik
 
 ### Gelap
 

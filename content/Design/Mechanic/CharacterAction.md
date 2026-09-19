@@ -86,9 +86,15 @@ Character bisa memasang equipment yang bisa digunakan untuk melakukan action
 Terdapat sejumlah action khusus yang hanya dimiliki beberapa character. Action tersebut adalah:
 
 - ![[AllyCharacterAction|Ally character]]
+
 - ![[PlayerCharacterAction|Player character]]
+
 - ![[CivilianAction|Civilian Action]]
+
 - ![[EnemyCharacterAction|Enemy character]]
+
 - ![[ZombieRobotAction|Zombie robot action]]
+
 - ![[RobberAction|Robber action]]
+
 -

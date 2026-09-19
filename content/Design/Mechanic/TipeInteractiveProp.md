@@ -171,7 +171,7 @@ Turret adalah defense prop yang:
 [[InteractivePropBehaviour#Repairable|Repairable]] oleh [[Character#Ally character|ally character]]
 [[InteractivePropBehaviour#Aggroable|Aggroable]] terhadap [[Character#Enemy character|enemy character]]
 
-#### Fence
+#### Barbed wire fence
 
 Fence adalah defense prop yang:
 [[InteractivePropBehaviour#Breakable|Breakable]] oleh [[Character#Enemy character|enemy character]]
@@ -187,10 +187,12 @@ Tipe gating prop
 #### Locked door
 
 Locked door adalah gating prop yang openable, yang memungkinkan character untuk mengakses suatu tempat saja
+Locked door akan ditaruh di salah satu sisi modul concrete wall dari [[DecorativeProp#Building module|Building module]]
 
 #### Locked fence gate
 
 Locked fence gate adalah gating prop yang [[InteractivePropBehaviour#Spawncapable|spawncapable]] dalam memicu spawning [[Character#Zombie robot|zombie robot]]
+Locked door akan ditaruh di salah satu sisi modul concrete wall dari [[DecorativeProp#Fence module|Fence module]]
 
 ### Interactive prop khusus
 
