@@ -5,4 +5,6 @@ Pada dokumen ini terdapat sejumlah informasi tentang:
 
 [[GameDesignDocument|Game Design Document]]
 [[ArtDesignDocument|Art Design Document]]
-[[TechincalDesignDocument|Technical Design Document]]
+[[TechnicalDesignDocument|Technical Design Document]]
+[[ProjectKanban|Project kanban]]
+[[DataTim|Data tim]]
