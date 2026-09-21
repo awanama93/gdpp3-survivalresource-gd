@@ -2,9 +2,10 @@
 
 ### Worldbuilding
 
-Berdasarkan pada trope cyberpunk, dunia pada game ini dikuasai oleh korporasi, lebih spesifiknya adalah korporasi teknologi digital, mulai dari AI sampai bioenhancement. Tapi lalu terjadi perang digital antara korporasi yang memicu kemunculan virus digital. Lalu virus digital itu menjalar secara biologis dari orang ke orang, tapi juga dia menjalar lewat jaringan digital atau dari tubuh yang pernah mengakses jaringan digital. Pendek kata, virus itu merusak tatanan dunia. Dampaknya, terjadi kekacauan di mana-mana. Hanya ada satu tempat di dunia di mana common people bisa aman dari serangan virus itu.
-
-Dunia kemudian menjadi seperti kawasan tandus di mana banyak kawasan terbengkalai. Sebab, orang-orang berusaha kabur untuk menuju tempat aman itu. Sementara itu, kawasan-kawasan terbengkalai dipenuhi cyborg yang sudah menjadi zombie robot karena sudah virusnya terlalu kuat. Selain itu, orang-orang yang tidak percaya dengan lembaga tempat aman itu kemudian membentuk kelompok-kelompok penjarah. Mereka menyerang siapa pun yang bukan bagian dari mereka.
+> [!info] Bagian ini sama dengan semua proyek GDPP3
+> Berdasarkan pada trope cyberpunk, dunia pada game ini dikuasai oleh korporasi, lebih spesifiknya adalah korporasi teknologi digital, mulai dari AI sampai bioenhancement. Tapi lalu terjadi perang digital antara korporasi yang memicu kemunculan virus digital. Lalu virus digital itu menjalar secara biologis dari orang ke orang, tapi juga dia menjalar lewat jaringan digital atau dari tubuh yang pernah mengakses jaringan digital. Pendek kata, virus itu merusak tatanan dunia. Dampaknya, terjadi kekacauan di mana-mana. Hanya ada satu tempat di dunia di mana common people bisa aman dari serangan virus itu.
+>
+> Dunia kemudian menjadi seperti kawasan tandus di mana banyak kawasan terbengkalai. Sebab, orang-orang berusaha kabur untuk menuju tempat aman itu. Sementara itu, kawasan-kawasan terbengkalai dipenuhi cyborg yang sudah menjadi zombie robot karena sudah virusnya terlalu kuat. Selain itu, orang-orang yang tidak percaya dengan lembaga tempat aman itu kemudian membentuk kelompok-kelompok penjarah. Mereka menyerang siapa pun yang bukan bagian dari mereka.
 
 Player character adalah seseorang yang sedang dalam perjalanan menuju tempat aman itu. Tapi kemudian rombongannya diserang sehingga dia melarikan diri. Dalam pelarian diri itu dia mencapai suatu tempat di mana ada sekumpulan survivor yang berusaha membangun tower radio untuk memanggil tim penyelamat.
 
