@@ -14,7 +14,7 @@ Informasi narrative dari game ini, [[Narrative|bisa diakses di sini]]
 
 ##### Lose
 
-- Player tidak bisa kalah dalam game ini, tetapi [[Character#Player character|Player character]] bisa mengalami keadaan [[PlayerCharacterState#Gelap|Gelap]] maupun [[PlayerCharacterState#Pingsan|Pingsan]] yang bisa me-reset lokasi player character ke lokasi tertentu dan mengurangi resource
+- Player tidak bisa kalah dalam game ini, tetapi [[Character#Player character|Player character]] bisa mengalami keadaan [[PlayerCharacterState#Gelap|Gelap]] maupun [[PlayerCharacterState#Pingsan|Pingsan]] yang bisa me-reset lokasi player character ke lokasi otertentu dan mengurangi resource
 
 ##### Survival
 
